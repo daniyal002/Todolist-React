@@ -1,0 +1,31 @@
+.listadd {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  padding: 30px;
+  background-color: darkslateblue;
+  border-radius: 20px;
+  box-shadow: 1px 3px 10px rgb(0, 255, 55);
+}
+
+.listadd__listaddinput {
+  width: 75%;
+  margin-right: 20px;
+  outline: 0;
+  font-size: 18px;
+  padding-left: 10px;
+  border: 2px solid rgb(132, 121, 206);
+  border-radius: 12px;
+}
+
+@media (max-width: 473px) {
+  .listadd {
+    flex-direction: column;
+    align-items: center;
+  }
+  .listadd__listaddinput {
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+}
